@@ -1,5 +1,5 @@
 html {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -27,34 +27,14 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-
-.btn-black {
-    background: black;
-    color: white;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
 .text-black {
     color: #000 !important;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.bg-black {
+    background: #000 !important;
 }
+
 
 /* -------------------------------- Media Queries */
 
