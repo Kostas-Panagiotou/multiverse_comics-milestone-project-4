@@ -27,7 +27,7 @@
             href="https://fonts.gstatic.com"
         />
         <link 
-            href="https://fonts.googleapis.com/css2?family=Girassol&display=Lato:wght@100;300;400;500&display=swap" 
+            href="https://fonts.googleapis.com/css2?family=Girassol&display=Lato:wght@100;300;400&display=swap" 
             rel="stylesheet"
         />
         <link 
@@ -41,11 +41,11 @@
     {% endblock %}
 
     {% block corejs %}
-        <script 
-            src="https://kit.fontawesome.com/6894d3d5a1.js" 
-            crossorigin="anonymous"
+       <script
+       src="https://kit.fontawesome.com/d8505f9f3f.js"
+       crossorigin="anonymous"
             ></script>
-        <script 
+         <script 
             src="https://code.jquery.com/jquery-3.6.0.min.js" 
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
             crossorigin="anonymous"
@@ -70,10 +70,10 @@
   </head>
   <body>
     <header class="container-fluid fixed-top">
-        <div class="row">
+        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0">Multiverse Comics<span class="purple-text text-uppercase"></span></h2>
+                    <h2 class="logo-font text-danger my-0">Multiverse Comics<span class="danger-text text-uppercase"></span></h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -141,6 +141,52 @@
     {% block content %}
     {% endblock %}
 
+
+    <footer class="container-fluid"> 
+        <!--Copyright and social links-->
+        <div class="row d-flex flex-sm-column flex-md-row justify-content-md-between mx-auto w-100">
+           <div class="col-12 col-md-4 mx-sm-0 mt-md-2 text-center">
+              <ul class="list-inline d-block mb-0 float-md-left">
+                 <li class="list-inline-item p-1">
+                    <a target="_blank" 
+                       rel="noopener"
+                       href="https://www.facebook.com/">
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                    </a>
+                 </li>
+                 <li class="list-inline-item p-1">
+                    <a
+                       target="_blank" 
+                       rel="noopener"
+                       href="https://www.instagram.com/"
+                       >
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                    </a>
+                 </li>
+                 <li class="list-inline-item p-1">
+                    <a
+                       target="_blank"
+                       rel="noopener"
+                       href="https://www.twitter.com/"
+                       >
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                    </a>
+                 </li>
+              </ul>
+           </div> 
+           <div class="col-12 col-md-4 mx-sm-0 mt-md-2 p-0 text-center">
+               <small>© 2021 Konstantinos Panagiotou</small>
+           </div>
+           <div class="col-12 col-md-4 mx-auto text-center">
+              <a href="{% url 'home' %}" class="nav-link footer-link float-md-right">
+                   <h5 class="text-white footer-logo my-0 mx-auto">Multiverse Comics-<span class="green-text text-uppercase"></span></h5>
+               </a>
+           </div>      
+        </div>
+     </footer>
     {% block postloadjs %}
     {% endblock %}
 
