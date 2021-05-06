@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description"
-    content="Multiverse Comics is a e-commerse site selling comics, graphic novels, figures and memorabilia.">
+    content="Multiverse Comics is a e-commerse site selling comics, graphic novels, Toys & Collectibles.">
     {% endblock %} 
     
     {% block extra_meta %}
@@ -83,7 +83,7 @@
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
-                                    <i class="fas fa-search"></i>
+                                    <i class="fab fa-searchengin fa-lg "></i>
                                 </span>
                             </button>
                         </div>
@@ -95,7 +95,7 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
+                                <div><i class="fas fa-jedi fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
                             </div>
                         </a>
@@ -128,6 +128,21 @@
                     </li>
                 </ul>
             </div>
+        </div>
+      
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
+            </nav>
+        </div>
+        <div id="delivery-banner" class="row text-center">
+            <div class="col bg-black text-white">
+                <h4 class="logo-font my-1">Free delivery on orders over £{{ free_shipping_threshold }}!</h4>                
+            </div>            
         </div>
     </header>
 
