@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    height: 100vh;
 }
 
 body {
@@ -33,6 +33,32 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+
+
+/* Footer */
+footer {
+    position: fixed;
+    background-color: #000;
+    color: #fafafa;
+    font-family: 'Lato', 'Girassol';     
+    bottom: 0;  
+}
+
+footer i {
+    color: #fafafa;
+}
+
+.footer-logo {        
+    width: 100%;
+    padding: 1px;
+    border: 1px solid white;      
+}
+
+.footer-link {
+    font-family: 'Lato', 'Girassol'; 
+    font-size: 18px;
 }
 
 

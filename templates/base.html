@@ -154,9 +154,14 @@
     {% endblock %}
 
     {% block content %}
+    
     {% endblock %}
 
+    
 
+    
+    {% block postloadjs %}
+    {% endblock %}
     <footer class="container-fluid"> 
         <!--Copyright and social links-->
         <div class="row d-flex flex-sm-column flex-md-row justify-content-md-between mx-auto w-100">
@@ -197,13 +202,11 @@
            </div>
            <div class="col-12 col-md-4 mx-auto text-center">
               <a href="{% url 'home' %}" class="nav-link footer-link float-md-right">
-                   <h5 class="text-white footer-logo my-0 mx-auto">Multiverse Comics-<span class="green-text text-uppercase"></span></h5>
+                   <h5 class="text-white footer-logo my-0 mx-auto">Multiverse Comics<span class="green-text text-uppercase"></span></h5>
                </a>
            </div>      
         </div>
      </footer>
-    {% block postloadjs %}
-    {% endblock %}
 
     
   </body>

@@ -1,0 +1,98 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "comics",
+        "friendly_name": "Comics"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "graphic_novels",
+        "friendly_name": "Graphic Novels"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "clearance",
+        "friendly_name": "Clearance"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "hot-deals",
+        "friendly_name": "Hot-Deals"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "collectible_comics",
+        "friendly_name": "Collectible Comics"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "all_comics & graphic_novels",
+        "friendly_name": "All Comics & Graphic Novels"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "figures",
+        "friendly_name": "Figures"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "home_gifts",
+        "friendly_name": "Home & Gifts"
+      }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+          "name": "all_Toys_collectibles",
+          "friendly_name": "All Toys & Collectibles"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+          "name": "clearance",
+          "friendly_name": "Clearance"
+        }
+      },
+      {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+          "name": "all_spectacular",
+          "friendly_name": "All Spectacular"
+        }
+      }
+   ]
