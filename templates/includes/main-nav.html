@@ -17,10 +17,10 @@
                 Comics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="comics-link">
-                <a href="" class="dropdown-item">Comics</a>
-                <a href="" class="dropdown-item">Graphic Novels</a>
-                <a href="" class="dropdown-item">Collectible Comics</a>
-                <a href="" class="dropdown-item">All Comics &amp; Graphic Novels</a>
+                <a href="{% url 'products' %}?category=comics" class="dropdown-item">Comics</a>
+                <a href="{% url 'products' %}?category=graphic_novels" class="dropdown-item">Graphic Novels</a>
+                <a href="{% url 'products' %}?category=collectible_comics" class="dropdown-item">Collectible Comics</a>
+                <a href="{% url 'products' %}?category=comics,graphic_novels,collectible_comics" class="dropdown-item">All Comics &amp; Graphic Novels</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Toys & Collectibles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Toys & Collectibles-link">
-                <a href="" class="dropdown-item">Figures</a>
-                <a href="" class="dropdown-item">Home & Gifts</a>
-                <a href="" class="dropdown-item">All Toys & Collectibles</a>
+                <a href="{% url 'products' %}?category=figures" class="dropdown-item">Figures</a>
+                <a href="{% url 'products' %}?category=home_gifts" class="dropdown-item">Home & Gifts</a>
+                <a href="{% url 'products' %}?category=figures,home_gifts" class="dropdown-item">All Toys & Collectibles</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Spectacular Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="spectacular -link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Hot-Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Spectacular</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=hot_deals" class="dropdown-item">Hot-Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,hot_deals,clearance" class="dropdown-item">All Spectacular</a>
             </div>
         </li>
     </ul>
