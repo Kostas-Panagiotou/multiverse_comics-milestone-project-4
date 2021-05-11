@@ -50,6 +50,20 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+    size: 8px;
+}
+
+
 /* Footer */
 footer {
     position: fixed;
