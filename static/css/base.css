@@ -73,6 +73,7 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+    
 }
 
 a.category-badge > span.badge:hover {
@@ -88,7 +89,9 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
     size: 8px;
 }
@@ -110,7 +113,7 @@ footer i {
 .footer-logo {        
     width: 100%;
     padding: 0px;
-    border: 1px solid white;      
+    border: -1px solid white;      
 }
 
 .footer-link {
