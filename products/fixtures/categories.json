@@ -27,7 +27,7 @@
       "pk": 4,
       "model": "products.category",
       "fields": {
-        "name": "hot-deals",
+        "name": "hot_deals",
         "friendly_name": "Hot-Deals"
       }
     },
