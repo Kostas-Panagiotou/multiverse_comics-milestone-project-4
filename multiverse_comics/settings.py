@@ -79,6 +79,7 @@ TEMPLATES = [
     },
 ]
 
+
 AUTHENTICATION_BACKENDS = [
 
     # Needed to login by username in Django admin, regardless of `allauth`
@@ -164,4 +165,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 FREE_DELIVERY_THRESHOLD = 60
-STANDARD_DELIVERY_PERCENTAGE = 15
+STANDARD_DELIVERY_PERCENTAGE = 20
