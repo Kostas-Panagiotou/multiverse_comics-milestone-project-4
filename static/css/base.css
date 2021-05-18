@@ -99,7 +99,7 @@ a.category-badge > span.badge:hover {
 
 /* Footer */
 footer {
-    display: table-footer-group;
+    display: none;
     position: fixed;
     background-color: #000;
     color: #fafafa;
