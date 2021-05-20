@@ -23,7 +23,7 @@ def webhook(request):
 
     try:
         event = stripe.Webhook.construct_event(
-                payload, sig_header, wh_secret
+        payload, sig_header, wh_secret
         )
     except ValueError as e:
         # Invalid payload
@@ -40,9 +40,7 @@ def webhook(request):
     # Map webhook events to relevant handler functions
     event_map = {
         'payment_intent.succeeded': handler.handle_payment_intent_succeeded,
-        'payment_intent.payment_failed': (
-         handler.handle_payment_intent_payment_failed,
-        )
+        'payment_intent.payment_failed': handler.handle_payment_intent_payment_failed,
     }
 
     # Get the webhook type from Stripe
