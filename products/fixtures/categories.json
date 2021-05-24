@@ -19,16 +19,16 @@
       "pk": 3,
       "model": "products.category",
       "fields": {
-        "name": "clearance",
-        "friendly_name": "Clearance"
+        "name": "spectacular_clearance",
+        "friendly_name": "Spectacular Clearance"
       }
     },
     {
       "pk": 4,
       "model": "products.category",
       "fields": {
-        "name": "hot_deals",
-        "friendly_name": "Hot-Deals"
+        "name": "amazing_deals",
+        "friendly_name": "Amazing Deals"
       }
     },
     {
