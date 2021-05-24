@@ -1,20 +1,12 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Homesick
+            </a>
+        </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
-                <a href="{% url 'products' %}?sort=publisher&direction=asc" class="dropdown-item">By Publisher</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="comics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Comics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="comics-link">
@@ -37,14 +29,27 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="spectacular-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="spectacular-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Spectacular Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="spectacular -link">
+            <div class="dropdown-menu border-0" aria-labelledby="spectacular-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=hot_deals" class="dropdown-item">Hot-Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,hot_deals,clearance" class="dropdown-item">All Spectacular</a>
+                <a href="{% url 'products' %}?category=amazing_deals" class="dropdown-item">Amazing Deals</a>
+                <a href="{% url 'products' %}?category=spectacular_clearance" class="dropdown-item">Spectacular Clearance </a>
+                <a href="{% url 'products' %}?category=new_arrivals,amazing_deals,spectacular_clearance" class="dropdown-item">All Spectacular</a>
+           </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-multiverse-items-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Our Multiverse Items By Order
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-multiverse-items-link">
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
+                <a href="{% url 'products' %}?sort=publisher&direction=asc" class="dropdown-item">By Publisher</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Multiverse Items</a>
             </div>
         </li>
     </ul>
