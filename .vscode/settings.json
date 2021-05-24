@@ -22,4 +22,5 @@
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Visual Studio Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "python.pythonPath": "/home/gitpod/.pyenv/versions/3.8.9/bin/python",
 }
