@@ -8,6 +8,7 @@ body {
     height: calc(100vh - 164px);
     color: #000;
     font-family:  'Girassol';
+    font-size: 20px;
 }
 
 
