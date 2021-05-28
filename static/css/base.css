@@ -33,14 +33,14 @@ body {
 .btn-black {
     background: black;
     color: white;
-    isolation: isolate;
+    
 }
 
 .btn-outline-black {
     background: white;
     color: black !important;
     border: 1px solid black;
-    isolation: isolate;
+    
 }
 
 .btn-outline-black:hover,
@@ -48,7 +48,7 @@ body {
 .btn-outline-black:focus {
     background: black;
     color: white !important;
-    isolation: isolate;
+    
 }
 
 
@@ -57,22 +57,22 @@ body {
 .btn-black:focus {
     background: #222;
     color: white;
-    isolation: isolate;
+    
 }
 
 .text-black {
     color: #000 !important;
-    isolation: isolate;
+   
 }
 
 .border-black {
     border: 1px solid black !important;
-    isolation: isolate;
+    
 }
 
 .bg-black {
     background: #000 !important;
-    isolation: isolate;
+    
 }
 
 .overlay {
@@ -83,14 +83,12 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
-    isolation: isolate;
     
 }
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
-    isolation: isolate;
 }
 
 .btt-button {
@@ -118,13 +116,13 @@ footer {
     bottom: 0;
     height: 2rem;
     font-size: 1rem;
-    isolation: isolate;
+    
     
 }
 
 footer i {
     color: #fafafa;
-    isolation: isolate;
+    
 }
 
 .footer-logo {        
@@ -132,7 +130,7 @@ footer i {
     padding: 0px;
     border: -1px solid white;
     font-size: 1rem;
-    isolation: isolate;      
+         
 }
 
 .footer-link {
@@ -157,13 +155,13 @@ footer i {
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
-    isolation: isolate;
+    
 }
 
 .allauth-form-inner-content input {
     border-color: #000;
     border-radius: 0;
-    isolation: isolate;
+    
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
@@ -172,7 +170,7 @@ footer i {
 
 .allauth-form-inner-content input::placeholder {
     color: #aab7c4;
-    isolation: isolate;
+    
 }
 
 .allauth-form-inner-content button,
@@ -193,7 +191,7 @@ footer i {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0;
-    isolation: isolate;
+   
 
     /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -204,12 +202,12 @@ footer i {
 	color: #fff;
     background-color: #222;
     border-color: #222;
-    isolation: isolate;
+    
 }
 
 .allauth-form-inner-content a {
 	color: #4a56a1d3; /* text-info */
-    isolation: isolate;
+    
 }
 
 /* Product Form */
@@ -232,14 +230,14 @@ footer i {
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
-    isolation: isolate;
+    
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
-    isolation: isolate;
+    
 }
 
 /* fixed top navbar only on medium and up */

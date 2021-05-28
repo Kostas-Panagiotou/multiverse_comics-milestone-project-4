@@ -7,6 +7,22 @@
             <div class="col"></div>
         </div>
     </div>
+    
+    
+    {% block extra_js %}
+<script>
+     
+     function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+
+
+</script>
+    {% endblock %}
+    
+    
     {% endblock %}  
     
     
