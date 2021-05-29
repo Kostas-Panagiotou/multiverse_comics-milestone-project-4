@@ -10,11 +10,10 @@
     </div>
 {% endblock %}
  
- 
 {% block content %}
 <!--Contact form-->
- <div id="contact" class="row bg-dark contact-container w-100 mx-0">
-    <div class="col-sm-8 col-md-4 col-4 border bg-white p-3 m-3 mx-md-auto my-md-5">
+<div id="contact" class="contact-container">
+    <div class="col-sm-4 col-md-4 col-4 border bg-white p-3 m-3 mx-md-auto my-md-5">
         <h2 class="logo-font text-center">Get in touch</h2>
         <p class="mb-3">If you have a question for us please fill out the form below</p>
         <form class="contact-form" action="{% url 'contact_us' %}" method="POST">
@@ -29,7 +28,8 @@
     <a href="" class="btt-link d-flex h-100">
         <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
     </a>
-   </div>
+</div>
+
 </div>
 {% endblock %}
 
