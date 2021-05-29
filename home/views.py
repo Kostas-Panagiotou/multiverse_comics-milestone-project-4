@@ -9,9 +9,22 @@ from django.contrib import messages
 
 
 def index(request):
-    """ Return the index page """
 
-    return render(request, 'home/index.html')
+    # Pre populate fields with profile information
+    if request.user.is_authenticated:
+        profile = UserProfile.objects.get(user=request.user)
+        form = ContactForm(initial={
+                    'contact_name': profile.default_full_name,
+                    'contact_email': profile.default_email,
+        })
+    else:
+        form = ContactForm()
+
+    context = {
+        'form': form,
+    }
+
+    return render(request, 'home/index.html', context)
 
 
 def contact_us(request):
