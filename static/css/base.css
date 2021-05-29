@@ -110,15 +110,7 @@ a.category-badge > span.badge:hover {
     height: min-content;
 }
 
-.contact-container {
-    display: grid;
-    position: fixed;
-    background-color: #000;
-    color: #aab7c4;
-    bottom: 0;
-    height: 3rem;
-    font-size: medium;
-}
+
 
 
 /* Footer */
