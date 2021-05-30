@@ -11,13 +11,7 @@
  
 {% block content%}
 
-    
-    
-
-
-
-
- <!--Contact form-->
+<!--Contact form-->
   
     <div id="contact" class="row">
     <div class="col-sm-2 col-md-1.5 col-5 border bg-white p-3 mt-0  w-25 m-5 pb-5">
@@ -26,7 +20,7 @@
         <form class="contact-form " action="{% url 'contact_us' %}" method="POST">
             {% csrf_token %}
             {{ form | crispy }}
-            <input class="btn btn-green rounded-0 w-100" type="submit" value="Send Message" />
+            <input class="btn btn-black rounded-0 w-100" type="submit" value="Send Message" />
         </form>
     </div>
 </div>
