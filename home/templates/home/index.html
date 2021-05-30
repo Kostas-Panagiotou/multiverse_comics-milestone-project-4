@@ -9,27 +9,77 @@
     </div>
 {% endblock %}
  
+{% block content%}
 
-<!--Contact form-->
-<!--<div id="contact" class="row bg-dark contact-container w-100 mx-0 fixed-bottom">
-    <div class="col-sm-4 col-md-4 col-4 border bg-white p-3 m-3 mx-md-auto my-md-5 fixed-bottom">
+    
+    
+
+
+
+
+ <!--Contact form-->
+  
+    <div id="contact" class="row">
+    <div class="col-sm-2 col-md-1.5 col-5 border bg-white p-3 mt-0  w-25 m-5 pb-5">
         <h2 class="logo-font text-center">Get in touch</h2>
         <p class="mb-3">If you have a question for us please fill out the form below</p>
-        <form class="contact-form" action="{% url 'contact_us' %}" method="POST">
+        <form class="contact-form " action="{% url 'contact_us' %}" method="POST">
             {% csrf_token %}
             {{ form | crispy }}
-            <input class="btn btn-black rounded-0 w-100" type="submit" value="Send Message" />
+            <input class="btn btn-green rounded-0 w-100" type="submit" value="Send Message" />
         </form>
     </div>
 </div>
 
-<div class="btt-button shadow-sm rounded-0 border border-black">
-    <a href="" class="btt-link d-flex h-100">
-        <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
-    </a>
-</div>
 
-</div>
+
+ <footer class="container-fluid">
+    <!--Copyright and social links-->
+    <div class="row d-flex flex-sm-column flex-md-row justify-content-md-between mx-auto w-100">
+       <div class="col-12 col-md-4 mx-sm-0 mt-md-2 text-center">
+          <ul class="list-inline d-block mb-0 float-md-left">
+             <li class="list-inline-item p-1">
+                <a target="_blank" 
+                   rel="noopener"
+                   href="https://www.facebook.com/">
+                <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+                </a>
+             </li>
+             <li class="list-inline-item p-1">
+                <a
+                   target="_blank" 
+                   rel="noopener"
+                   href="https://www.instagram.com/"
+                   >
+                <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+                </a>
+             </li>
+             <li class="list-inline-item p-1">
+                <a
+                   target="_blank"
+                   rel="noopener"
+                   href="https://www.twitter.com/"
+                   >
+                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+                </a>
+             </li>
+          </ul>
+       </div> 
+       <div class="col-12 col-md-4 mx-sm-0 mt-md-2 p-0 text-center">
+           <small>© 2021 Konstantinos Panagiotou</small>
+       </div>
+       <div class="col-12 col-md-4 mx-auto text-center">
+          <a href="{% url 'home' %}" class="nav-link footer-link float-md-right">
+               <h5 class="text-white footer-logo my-0 mx-auto">Multiverse Comics<span class="green-text text-uppercase"></span></h5>
+           </a>
+       </div>      
+    </div>
+ </footer>  
+
+{% endblock%}
 
 
 

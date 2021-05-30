@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'q(!zl&c4+w)j!b7bslik26mcf=3=qp3=q)^)yr$7sk1+=ap43a'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['multiverse-comics.herokuapp.com', 'localhost']
 
