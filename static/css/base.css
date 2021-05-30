@@ -9,6 +9,7 @@ body {
     color: #000;
     font-family:  'Girassol';
     font-size: 20px;
+    
 }
 
 
@@ -106,9 +107,6 @@ a.category-badge > span.badge:hover {
     size: 8px;
 }
 
-.text-center {
-    height: min-content;
-}
 
 
 
@@ -316,5 +314,4 @@ footer i {
     padding-top: 75px;
     scroll-padding-bottom: 75px;
 }
-
 
