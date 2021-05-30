@@ -9,6 +9,7 @@ from django.contrib import messages
 
 
 def index(request):
+    """ A view to return the index page """
 
     # Pre populate fields with profile information
     if request.user.is_authenticated:
