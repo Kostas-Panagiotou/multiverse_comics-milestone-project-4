@@ -15,8 +15,8 @@ def index(request):
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
         form = ContactForm(initial={
-                    'contact_name': profile.default_full_name,
-                    'contact_email': profile.default_email,
+                    'contact_name':  profile.user.get_full_name,
+                    'contact_email': profile.user.email,
         })
     else:
         form = ContactForm()
