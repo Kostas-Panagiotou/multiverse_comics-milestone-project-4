@@ -6,7 +6,7 @@ QUERIES = (
     ('Best Comics to start with', 'Best Comics to start with'),
     ('Order and shipping details', 'Order and shipping details'),
     ('I want a comic added to the shop', 'I want a comic added to the shop'),
-    ('Something else', 'Something else'),
+    ('Something strange', 'Something strange'),
 )
 
 
