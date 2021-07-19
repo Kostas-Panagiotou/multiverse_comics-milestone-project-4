@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}:Danger!! Evacuate This Uviverse! Internal Server Error (500) {% endblock %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container  product-container px-md-0">
+        <div class="error-container"></div>
+            <div class="row">
+                <div class="col-12 logo-font text-center mt-5">            
+                    <h2 class="black-text"><i class="fas fa-biohazard fa-lg"></i> 500 Internal Server Error! Dark Multiverse breach secure your cyber-data! </h2>                            
+                    <hr class="w-50 mb-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="container col-10 offset-1">              
+                    <div class="row mb-5">                   
+                        <div class="col-12 text-center">
+                            <p class="logo-font mb-5">The item you requested doesn't exist in our server!</p>
+                            <a href="{% url 'home'%}" class="btn btn-lg btn-black rounded-0 text-uppercase"><i class="fas fa-arrow-left fa-sm"></i> Homesick</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>                         
+{% endblock %}
