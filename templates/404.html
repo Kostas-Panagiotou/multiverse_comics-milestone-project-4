@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}:Ohhh Nooo!!! Page Not Found! (404) {% endblock %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container product-container px-md-0">
+        <div class="error-container">
+            <div class="row">
+                <div class="col-12 logo-font text-center mt-5">
+                    <h2 class="black-text"><i class="fas fa-bomb"></i> 404 Page Not Found! Call the Batcave now! </h2>
+                    <hr class="w-50 mb-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="container col-10 offset-1">              
+                    <div class="row mb-5">                   
+                        <div class="col-12 text-center">
+                            <p class="logo-font mb-5">The page you requested wasn't found or doesn't exist in this Multiverse!</p>
+                            <a href="{% url 'home'%}" class="btn btn-lg btn-black rounded-0 text-uppercase"><i class="fas fa-arrow-left fa-sm"></i>Homesick</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>                  
+{% endblock %}
