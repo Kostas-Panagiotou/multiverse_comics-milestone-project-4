@@ -13,10 +13,10 @@
 
 <!--Contact form-->
   
-    <div id="contact" class="row">
+    <div id="contact" class="row  w-100 mx-0 ">
     <div class="col-sm-2 col-md-1.5 col-5 border bg-white p-3 mt-0  w-25 m-5 pb-5">
         <h2 class="logo-font text-center">Get in touch</h2>
-        <p class="mb-3">If you have a question for us please fill out the form below</p>
+        <p class="mb-3">If you have superhuman powers or a question for us please fill out the form below</p>
         <form class="contact-form " action="{% url 'contact_us' %}" method="POST">
             {% csrf_token %}
             {{ form | crispy }}
@@ -35,7 +35,7 @@
              <li class="list-inline-item p-1">
                 <a target="_blank" 
                    rel="noopener"
-                   href="https://www.facebook.com/">
+                   href="https://www.facebook.com/DCUnitedKingdom">
                 <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
                 </a>
@@ -44,7 +44,7 @@
                 <a
                    target="_blank" 
                    rel="noopener"
-                   href="https://www.instagram.com/"
+                   href="https://www.instagram.com/marvel"
                    >
                 <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
@@ -54,7 +54,7 @@
                 <a
                    target="_blank"
                    rel="noopener"
-                   href="https://www.twitter.com/"
+                   href="https://twitter.com/multiverse?lang=en"
                    >
                 <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
