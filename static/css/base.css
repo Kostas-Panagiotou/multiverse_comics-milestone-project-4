@@ -106,22 +106,19 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
     size: 8px;
 }
-.pb-sm-0 {
-    padding-bottom: 0 !important;
-}
+
 
 .pb-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
 
 }
 
-
 .m-5 {
-    margin: 3.5rem !important;
+    margin: 5rem !important;
 }
 
 .w-25 {
-    width: 25% !important;
+    width: 20% !important;
 }
 
 /* Footer */
