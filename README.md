@@ -127,6 +127,11 @@ AWS S3 bucket for media and static file storage.
 
 ### &rarr; **<u>Database</u>**
 
+---
+> The user stories are tested in [Testing](testing.md)
+---
+
+
 ## **Data Schema**
  
     The `Product` model within the products app, is used to store information about individual products.
