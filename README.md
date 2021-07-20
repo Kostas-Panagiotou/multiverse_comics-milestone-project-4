@@ -12,6 +12,18 @@ Visit the live site [here](https://multiverse-comics.herokuapp.com/)
 
 ---
 
+For <ins>**testing**</ins> the following credentials can be used:
+
+**Member Login**
+- Username: costas13
+- Email: Create your test email through the test.email.com or put your real email.
+- Password: 12345678!
+
+**Card payments**
+- Card number: 4242 4242 4242 4242
+- CCV: any integer values are valid/ like 244 42424 244 
+
+
 ## <u>Table of contents</u>
 
 **<details><summary> User Experience (UX)</summary>**
@@ -135,7 +147,7 @@ AWS S3 bucket for media and static file storage.
 ## **Data Schema**
  
     The `Product` model within the products app, is used to store information about individual products.
-    
+    The `Gategory` model within the products app, is used to group all the products in the spesific gategogy.
     The `UserProfile` model within the profiles app is used to store user's profile information and is connected to the checkout `Order` model - to store the user's checkout information, as well as order history.   
 
     The `Order` model within the checkout app, is used to store orders.
