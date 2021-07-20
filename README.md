@@ -10,8 +10,7 @@ Visit the live site [here](https://multiverse-comics.herokuapp.com/)
 
 </div>
 
-
-                 <img src=/media/main.png>
+<img src=/media/main.png>
 
 ---
 
