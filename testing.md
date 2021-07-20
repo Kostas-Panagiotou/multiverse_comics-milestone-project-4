@@ -115,11 +115,11 @@ To ensure my site was working correctly I carried out manual function testing on
 - [x] Cursor pointer is present when hovering button and link elements 
 - [x] User is directed to a custom 404 page if directed to a non-existent domain
 
-    <img src="readme/media/404-page.png">
+     <img src=/media/404-page.png>
 
 - [x] User is directed to a custom 500 page if they are trying to access a file that is not on the server.
 
-    <img src="readme/media/500-page.png">
+    
 
 - [x] The 'Homesick' button on the 404 page directs user as expected
 - [x] The 'Homesick' button on the 500 page directs user as expected
@@ -321,7 +321,7 @@ JS was also tested by opening the developer console window on Chrome and checkin
 > **Note:** The [performance score](https://web.dev/performance-scoring/) can fluctuate because of changes in underlying conditions.
 <p align="center">
 
-<img src="readme/media/lighthouse.png">
+<img src=/media/lighthouse.png>
 
 <p>
 <details>
