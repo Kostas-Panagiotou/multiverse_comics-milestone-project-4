@@ -321,7 +321,7 @@ JS was also tested by opening the developer console window on Chrome and checkin
 > **Note:** The [performance score](https://web.dev/performance-scoring/) can fluctuate because of changes in underlying conditions.
 <p align="center">
 
-<img src="media/lighthouse.png">
+<img src="readme/media/lighthouse.png">
 
 <p>
 <details>
@@ -330,12 +330,11 @@ JS was also tested by opening the developer console window on Chrome and checkin
 
 <ins>Performance</ins>
 
-The high perfomance review is due to best practices applied throughout the development of the site. Suggestions and imporvement have been applied where necessary. 
+The perfomance review is due to best practices applied throughout the development of the site. Suggestions and imporvement have been applied where necessary. 
 
 Actions taken:
 
 [`Eliminate render-blocking resources`](https://web.dev/render-blocking-resources/)
-- Lazy loading - added class 'lazy' to img tags
 - Added 'rel="preload" as="style"' attributes to base.css file
 - Added 'async' to JS script tags to indicate to the browser that the script file can be executed asynchronously. However, no improvement was made to performance so these were removed.
 
@@ -370,12 +369,12 @@ I didn't take any actions as none of my users experienced difficulty reading the
 
 - Google Chrome was the main site used throughout testing but the application was also trialled on Safari, Opera, Firefox, and Microsoft Edge browsers. 
     
-- The website was viewed on a variety of devices including ACER Laptop, Dell Notebook, Ipad, IPhones (Version 5, 6, XR), Nokia, Xiaomi, Huawei P20.
+- The website was viewed on a variety of devices including ACER Laptop, Dell Notebook, Lenovo ThinkPad, Ipad, IPhones (Version 5, 6, XR), Nokia, Xiaomi, Huawei P20.
 
 - Friends and family members were asked to review the site to point out any bugs, user experience issues, and/or suggestions.
 
     Feedback action:
-    - Add a number count onto the cart icon so I can easily see how many items are in my cart
+    - Add a number count onto the bag icon so I can easily see how many items are in my bag
     - Ability to autofill address by entering postcode 
    
 
@@ -386,5 +385,5 @@ I didn't take any actions as none of my users experienced difficulty reading the
 
 |     | Bug                                                                           | Action                                                            |
 |-----|-------------------------------------------------------------------------------|-------------------------------------------------------------------|                  
-| [x] | On the Ipad Screen the contact us form have less width than on other devices. |  I was trying to fix this isssue but when i fix this i have on another devices problems.
+| [x] | On the Ipad Screen the contact us form have less width than on other devices. |  I was trying to fix this isssue but when i fix this i have the same problem with another devices.
 | [x] | Contact us form was displayed taking up 25% of available width in mobile |  This bug was fixed easily by removing an excessive col-12 class from the element's class list |
