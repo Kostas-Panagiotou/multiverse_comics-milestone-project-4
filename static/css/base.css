@@ -93,8 +93,8 @@ a.category-badge > span.badge:hover {
 }
 
 .btt-button {
-    height: 42px;
-    width: 42px;
+    height: 22px;
+    width: 22px;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -132,7 +132,7 @@ footer {
     height: 2rem;
     font-size: 1rem;
     
-    
+       
 }
 
 footer i {
