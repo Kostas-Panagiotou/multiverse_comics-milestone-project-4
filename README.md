@@ -10,6 +10,9 @@ Visit the live site [here](https://multiverse-comics.herokuapp.com/)
 
 </div>
 
+
+                 <img src=/media/main.png>
+
 ---
 
 For <ins>**testing**</ins> the following credentials can be used:
