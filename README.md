@@ -65,10 +65,7 @@ For <ins>**testing**</ins> the following credentials can be used:
 
 ### **<u>Scope</u>**
 
-The scope of this app is to create a Python and Django based e-commerce site for an imaginary comic store and collectibles. Multiverse Comics offers the best comics and collectibles with the best prices around here.
-Multiverse Comics it aims to provide all relevant and expected functionality commonly found in e-shops to visitors, as well as an easy to use toolset for the site owner, customised to the specific product's demands. The app supports payments via Stripe and uses an 
-AWS S3 bucket for media and static file storage.
-
+The scope of this app is to create a Python and Django-based e-commerce site for an imaginary comic store and collectibles. Multiverse Comics offers the best comics and collectibles at the best prices around here. Multiverse Comics aims to provide all relevant and expected functionality commonly found in e-shops to visitors, as well as an easy-to-use toolset for the site owner, customized to the specific product's demands. The app supports payments via Stripe and uses an AWS S3 bucket for media and static file storage.
 ### **<u>Design</u>**
 
 **Structure**
